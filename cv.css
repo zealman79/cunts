@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
 body {
 	
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -15,13 +17,24 @@ body {
 }
 
 h1 {
-	font-size:18;
-	font-family: 
+	
+	 
 	color: #39C;
   	margin: auto;
  	padding: 5;
+ 	font-size: 25px;
+	padding: 10px;
+	text-align: left;
 }	
-
+h2 {
+	font-size: 22px;
+	padding: 10px;
+	text-align: left;
+}
+li {
+	font-size: 15px;
+	text-align: left;
+}
 .work h2 {
 	font-size:5;
 	color: #39C;
