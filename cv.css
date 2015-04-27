@@ -1,11 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
 body {
 	
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Alegreya Sans 900italic"
   font-size: 16px;
   letter-spacing: 0;
   line-height: 1.5;
@@ -17,29 +15,23 @@ body {
 }
 
 h1 {
-	
-	 
+	font-family:"Alegreya Sans 900italic"
+	font-size:18;
+	text-shadow: 1px 1px 1px #033;
+	font-family: 
 	color: #39C;
   	margin: auto;
  	padding: 5;
- 	font-size: 25px;
-	padding: 10px;
-	text-align: left;
+	//box-shadow: 0 1px 2px #06C; 
+	
 }	
-h2 {
-	font-size: 22px;
-	padding: 10px;
-	text-align: left;
-}
-li {
-	font-size: 15px;
-	text-align: left;
-}
+
 .work h2 {
 	font-size:5;
 	color: #39C;
   	margin: auto;
  	padding: 35;
+	text-shadow: 1px 1px 0 #036;
 }	
 
 .work {
@@ -59,4 +51,24 @@ li {
 	text-align: left;
 	margin: auto;
  	padding: 5;
+}
+
+.box {
+	border: 1px solid black;
+	box-sizing: padding-box;
+	box-shadow: 1px 2px 2px #003;
+	margin: 25px;
+	padding: 5px;
+	width: 1050px;
+
+}
+
+.box1 {
+	
+	border: 0.5px solid black;
+	box-sizing: padding-box;
+	box-shadow: 1px 2px 2px #003;
+	margin: 25px;
+	padding: 115px;
+	width: 1350px;
 }
